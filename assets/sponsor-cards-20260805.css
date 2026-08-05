@@ -4,12 +4,18 @@
   height:225px;
   mix-blend-mode:normal;
   object-fit:contain;
+  padding:8px;
   transform:none;
   width:100%;
 }
 
-.sponsor-slide-card[data-sponsor="nova-real-restaurante-e-churrasqueira"] img{
+.sponsor-slide-card[data-sponsor="nova-real-restaurante-e-churrasqueira"] img,
+.sponsor-slide-card[data-sponsor="sandro-oliveira"] img{
   background:#1e1713;
+}
+
+.raffle-supporters article img{
+  object-fit:contain;
 }
 
 @media (width<=620px){
