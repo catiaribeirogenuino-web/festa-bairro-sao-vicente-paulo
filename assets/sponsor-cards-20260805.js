@@ -50,4 +50,11 @@ function addRecoveredSponsors(){
   })
 }
 
-if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",addRecoveredSponsors);else addRecoveredSponsors();
+function ensureRecoveredSponsors(){
+  addRecoveredSponsors();
+  window.setTimeout(addRecoveredSponsors,250);
+  window.setTimeout(addRecoveredSponsors,1000)
+}
+
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",ensureRecoveredSponsors);else ensureRecoveredSponsors();
+window.addEventListener("load",ensureRecoveredSponsors,{once:true});
