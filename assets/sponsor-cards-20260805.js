@@ -1,3 +1,4 @@
+(() => {
 const sponsorMedia = {
   "Casa dos Presuntos": "./assets/sponsor-casa-dos-presuntos.png",
   "Eletro Ideal": "./assets/sponsor-eletro-ideal.png",
@@ -139,3 +140,4 @@ if (document.readyState === "loading") {
   ensureSponsorCards();
 }
 window.addEventListener("load", ensureSponsorCards, { once: true });
+})();
