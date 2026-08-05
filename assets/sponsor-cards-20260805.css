@@ -1,0 +1,17 @@
+.sponsor-slide-card img{
+  background:#fff;
+  box-shadow:0 10px 24px #062f3220;
+  height:225px;
+  mix-blend-mode:normal;
+  object-fit:contain;
+  transform:none;
+  width:100%;
+}
+
+.sponsor-slide-card[data-sponsor="nova-real-restaurante-e-churrasqueira"] img{
+  background:#1e1713;
+}
+
+@media (width<=620px){
+  .sponsor-slide-card img{height:215px;transform:none}
+}
