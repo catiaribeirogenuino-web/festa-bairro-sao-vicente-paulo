@@ -14,10 +14,38 @@
   background:#1e1713;
 }
 
+.sponsor-slide-card[data-sponsor="quinta-seara-d-ordens"] img{
+  background:#071f22;
+  padding:34px 22px;
+}
+
+.sponsor-slide-card[data-sponsor="t-moreira"] img,
+.sponsor-slide-card[data-sponsor="auto-motor"] img{
+  padding:6px;
+}
+
+.eletro-ideal-card{
+  align-items:center;background:linear-gradient(145deg,#fff 0%,#effbf4 100%);
+  border:1px solid #d9eee0;box-shadow:0 10px 24px #062f3220;color:#173d2e;
+  display:flex;flex-direction:column;height:225px;justify-content:center;
+  padding:24px 18px;text-align:center;width:100%;
+}
+.eletro-ideal-card strong{color:#164d34;font-family:Georgia,serif;font-size:34px;font-style:italic;line-height:1}
+.eletro-ideal-card span{background:#218a57;color:#fff;font-size:13px;font-weight:700;letter-spacing:.04em;margin:12px 0;padding:6px 12px;width:100%}
+.eletro-ideal-card small{font-size:11px;line-height:1.35}
+.eletro-ideal-card b{font-size:13px;margin-top:12px}
+
+.raffle-logo-card>.eletro-ideal-card{grid-column:2;height:72px;margin:0;object-fit:contain;padding:10px;width:100%}
+.raffle-logo-card>.eletro-ideal-card strong{font-size:22px}
+.raffle-logo-card>.eletro-ideal-card span{font-size:9px;margin:6px 0;padding:3px 6px}
+.raffle-logo-card>.eletro-ideal-card small{display:none}
+.raffle-logo-card>.eletro-ideal-card b{font-size:9px;margin-top:4px}
+.raffle-quinta-card>img{background:#071f22;border-radius:3px;padding:14px}
+
 .raffle-supporters article img{
   object-fit:contain;
 }
 
 @media (width<=620px){
-  .sponsor-slide-card img{height:215px;transform:none}
+  .sponsor-slide-card img,.eletro-ideal-card{height:215px;transform:none}
 }
