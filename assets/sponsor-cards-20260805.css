@@ -24,6 +24,15 @@
   padding:6px;
 }
 
+.sponsor-slide-card[data-sponsor="real-vidreira"] img{
+  background:#06474a;
+  padding:38px 18px;
+}
+
+.sponsor-slide-card[data-sponsor="vilaweb-solucoes-tecnologicas"] img{
+  padding:20px 12px;
+}
+
 .eletro-ideal-card{
   align-items:center;background:linear-gradient(145deg,#fff 0%,#effbf4 100%);
   border:1px solid #d9eee0;box-shadow:0 10px 24px #062f3220;color:#173d2e;

@@ -15,7 +15,9 @@ const sponsorMedia = {
   "Café Snack-Bar S. Vicente": "./assets/sponsor-snack-bar-s-vicente.webp",
   "Auto Motor": "./assets/sponsor-auto-motor.jpeg",
   "Porfírio Pereira — Instalações Elétricas": "./assets/sponsor-porfirio-pereira.jpeg",
-  "T Moreira": "./assets/sponsor-t-moreira.jpeg"
+  "T Moreira": "./assets/sponsor-t-moreira.jpeg",
+  "VilaWeb — Soluções Tecnológicas": "./assets/sponsor-vilaweb-20260807.webp",
+  "Real Vidreira": "./assets/sponsor-real-vidreira-horizontal-20260807.png"
 };
 
 const sponsorAliases = {
@@ -32,7 +34,9 @@ const sponsorsToAdd = [
   "Café Snack-Bar S. Vicente",
   "Auto Motor",
   "Porfírio Pereira — Instalações Elétricas",
-  "T Moreira"
+  "T Moreira",
+  "VilaWeb — Soluções Tecnológicas",
+  "Real Vidreira"
 ];
 
 const sponsorName = card => card.querySelector(":scope > p")?.textContent.trim() || "";
